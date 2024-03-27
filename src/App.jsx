@@ -36,6 +36,7 @@ function App() {
       <ul>
         {product.length > 0 ? product.map(p => <li key={p.id} className='rounded  mt-5 p-5 bg-red-200' >{p.title}</li>) : <h1>Loading ....</h1>}
       </ul>
+       
     </div>
   )
 }
